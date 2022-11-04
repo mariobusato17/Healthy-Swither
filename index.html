@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/section_dishes.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/section_landing.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <style>
+        @font-face {
+            font-family: 'HelveticaNeueCyr-Roman';
+            src: url('fonts/HelveticaNeueCyr-Roman.ttf') format('ttf');
+            font-weight: 400;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'HelveticaNeueBlackCondensed';
+            src: url('fonts/HelveticaNeueBlackCondensed.ttf') format('ttf');
+            font-weight: 900;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'HelveticaNeueBoldCondensed';
+            src: url('fonts/HelveticaNeueBoldCondensed.ttf') format('ttf');
+            font-weight: 700;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'HelveticaNeueCyr-Medium';
+            src: url('fonts/HelveticaNeueCyr-Medium.ttf') format('ttf');
+            font-weight: 400;
+            font-display: swap;
+        }
+    </style>
+    <title>Team</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header __container1110">
+            <div class="header__logo">
+                <img class="logo__icon" src="img/header_icon/Logo.svg" alt="logo">
+                <span class="logo__text">healthy swither</span>
+            </div>
+            <div class="header_nav">
+                <ul class="nav__list">
+                    <li class="links-list">
+                        <a class="links-list__link" href="#menu">menu</a>
+                        <a class="links-list__link" href="#recipes">recipes</a>
+                        <a class="links-list__link" href="#chefs">chefs</a>
+                        <a class="links-list__link" href="#contacts">contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main class="main">
+            <section class="landing">
+                <div class="landing__content contetnt__landing __container1110">
+                    <h1 class="landing__hedling">Your <span class="bolder">favourite food</span>
+                        delivered <span class="bolder">hot & fresh</span>
+                    </h1>
+                    <div class="subhedling">
+                        HEALTHY SWITCHER chefs do all the prep work, like peeling, chopping & marinating, so you can
+                        cook a
+                        fresh homemade dinner in just 15 minutes.
+                    </div>
+                    <a class="button landing__button" href="#orderNow">order now</a>
+                    <div class="landing__row">
+                        <div class="row__item">
+                            <img class="item__img" src="img/header_icon/ic_watch_later.svg">
+                            <div class="item__text">Today 10:00 am - 7:00 pm</div>
+                            <div class="item__subtext">Working hours</div>
+
+                        </div>
+                        <div class="row__item">
+                            <img class="item__img" src="img/header_icon/ic_near_me.svg">
+                            <div class="item__text">Velyka Vasylkivska 100</div>
+                            <div class="item__subtext">Get Directions</div>
+
+                        </div>
+                        <div class="row__item">
+                            <img class="item__img" src="img/header_icon/ic_watch_later.svg">
+                            <div class="item__text">+38 (063)833 24 15</div>
+                            <div class="item__subtext">Call Online</div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <div class="section_dishes" id="section_dishes">
+                <h1 class="title">Title of this Section</h1>
+                <h1 class="effect">title effect</h1>
+                <section class="collection">
+                    <div class="card">
+                        <img src="img/section_dishes/1.png" alt="Picture" href="/" max-width=500px>
+                        <h2>Card title 1</h2>
+                        <h3>Sub title</h3>
+                        <p>Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp
+                            patty and more...</p>
+                        <div class="rating">
+                            <div class="star_rating">
+                                <input type="checkbox" id="star5" name="Star_Rating_of_5_stars" class="star" value="5">
+                                <label for="star5" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star4" name="Star_Rating_of_5_stars" class="star" value="4">
+                                <label for="star4" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star3" name="Star_Rating_of_5_stars" class="star" value="3">
+                                <label for="star3" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star2" name="Star_Rating_of_5_stars" class="star" value="2">
+                                <label for="star2" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star1" name="Star_Rating_of_5_stars" class="star" value="1">
+                                <label for="star1" class="star" title="5 stars"></label>
+                            </div>
+                            <p class="numberReviews">n</p>
+                            <button class="button">Order</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/section_dishes/2.png" alt="Picture" href="/" max-width=500px>
+                        <h2>Card title 2</h2>
+                        <h3>Sub title</h3>
+                        <p>Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp
+                            patty and more...</p>
+                        <div class="rating">
+                            <div class="star_rating">
+                                <input type="checkbox" id="star5" name="Star_Rating_of_5_stars" class="star" value="5">
+                                <label for="star5" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star4" name="Star_Rating_of_5_stars" class="star" value="4">
+                                <label for="star4" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star3" name="Star_Rating_of_5_stars" class="star" value="3">
+                                <label for="star3" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star2" name="Star_Rating_of_5_stars" class="star" value="2">
+                                <label for="star2" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star1" name="Star_Rating_of_5_stars" class="star" value="1">
+                                <label for="star1" class="star" title="5 stars"></label>
+                            </div>
+                            <p class="numberReviews">n</p>
+                            <button class="button">Order</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/section_dishes/3.png" alt="Picture" href="/" max-width=500px>
+                        <h2>Card title 3</h2>
+                        <h3>Sub title</h3>
+                        <p>Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp
+                            patty and more...</p>
+                        <div class="rating">
+                            <div class="star_rating">
+                                <input type="checkbox" id="star5" name="Star_Rating_of_5_stars" class="star" value="5">
+                                <label for="star5" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star4" name="Star_Rating_of_5_stars" class="star" value="4">
+                                <label for="star4" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star3" name="Star_Rating_of_5_stars" class="star" value="3">
+                                <label for="star3" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star2" name="Star_Rating_of_5_stars" class="star" value="2">
+                                <label for="star2" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star1" name="Star_Rating_of_5_stars" class="star" value="1">
+                                <label for="star1" class="star" title="5 stars"></label>
+
+                            </div>
+
+                            <p class="numberReviews">n</p>
+                            <button class="button">Order</button>
+                        </div>
+
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="img/section_dishes/4.png" alt="Picture" href="/" max-width=500pxx>
+                        <h2>Card title 4</h2>
+                        <h3>Sub title</h3>
+                        <p>Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp
+                            patty and more...</p>
+                        <div class="rating">
+                            <div class="star_rating">
+                                <input type="checkbox" id="star5" name="Star_Rating_of_5_stars" class="star" value="5">
+                                <label for="star5" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star4" name="Star_Rating_of_5_stars" class="star" value="4">
+                                <label for="star4" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star3" name="Star_Rating_of_5_stars" class="star" value="3">
+                                <label for="star3" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star2" name="Star_Rating_of_5_stars" class="star" value="2">
+                                <label for="star2" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star1" name="Star_Rating_of_5_stars" class="star" value="1">
+                                <label for="star1" class="star" title="5 stars"></label>
+                            </div>
+                            <p class="numberReviews">n</p>
+                            <button class="button">Order</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/section_dishes/5.png" alt="Picture" href="/" max-width=500px>
+                        <h2>Card title 5</h2>
+                        <h3>Sub title</h3>
+                        <p>Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp
+                            patty and more...</p>
+                        <div class="rating">
+                            <div class="star_rating">
+                                <input type="checkbox" id="star5" name="Star_Rating_of_5_stars" class="star" value="5">
+                                <label for="star5" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star4" name="Star_Rating_of_5_stars" class="star" value="4">
+                                <label for="star4" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star3" name="Star_Rating_of_5_stars" class="star" value="3">
+                                <label for="star3" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star2" name="Star_Rating_of_5_stars" class="star" value="2">
+                                <label for="star2" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star1" name="Star_Rating_of_5_stars" class="star" value="1">
+                                <label for="star1" class="star" title="5 stars"></label>
+                            </div>
+                            <p class="numberReviews">n</p>
+                            <button class="button">Order</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/section_dishes/6.png" alt="Picture" href="/" max-width=500px>
+                        <h2>Card title 6</h2>
+                        <h3>Sub title</h3>
+                        <p>Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp
+                            patty and more...</p>
+                        <div class="rating">
+                            <div class="star_rating">
+                                <input type="checkbox" id="star5" name="Star_Rating_of_5_stars" class="star" value="5">
+                                <label for="star5" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star4" name="Star_Rating_of_5_stars" class="star" value="4">
+                                <label for="star4" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star3" name="Star_Rating_of_5_stars" class="star" value="3">
+                                <label for="star3" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star2" name="Star_Rating_of_5_stars" class="star" value="2">
+                                <label for="star2" class="star" title="5 stars"></label>
+                                <input type="checkbox" id="star1" name="Star_Rating_of_5_stars" class="star" value="1">
+                                <label for="star1" class="star" title="5 stars"></label>
+                            </div>
+                            <p class="numberReviews">n</p>
+                            <button class="button">Order</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section class="about">
+                <div class="about__about __container1110">
+                    <div class="about_header page-headeer">
+                        <h2 class="page-header__title">
+                            ABOUT
+                        </h2>
+                        <div class="page-header__subtitle">
+                            The Basics Of Healthy Food
+                        </div>
+                    </div>
+                    <div class="about_text">
+                        In aliqua ea ullamco ad est ex non deserunt nulla. Consectetur sint ea aliquip aliquip
+                        consectetur voluptate est. Eu minim dolore laboris enim mollit voluptate irure esse aliquip.
+                    </div>
+                    <div class="about__slider">
+                        <div class="slider">
+                            <div class="slider__item">
+                                <img data-lazy="img/section_about/1.jpg" alt="pictura">
+                            </div>
+                            <div class="slider__item">
+                                <img data-lazy="img/section_about/1.png" alt="pictura">
+                            </div>
+                            <div class="slider__item">
+                                <img data-lazy="img/section_about/2.jpg" alt="pictura">
+                            </div>
+                            <div class="slider__item">
+                                <img data-lazy="img/section_about/2.png" alt="pictura">
+                            </div>
+                            <div class="slider__item">
+                                <img data-lazy="img/section_about/3.png" alt="pictura">
+                            </div>
+                            <div class="slider__item">
+                                <img data-lazy="img/section_about/5.png" alt="pictura">
+                            </div>
+                            <div class="slider__item">
+                                <img data-lazy="img/section_about/6.png" alt="pictura">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+
+</body>
+
+</html>
